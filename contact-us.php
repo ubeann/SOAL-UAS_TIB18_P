@@ -37,6 +37,12 @@
                     Prodi : F&B <br>
                     No Hp : 081905665938<br>
                     E-mail : s19200005@studentubm.ac.id</p>
+                    <p>
+                        Kontribusi:<br>
+                        Overview dan navigasi<br>
+                        About us<br>
+                        Laporan
+                    </p>
             </div>
             <div class="card">
                 <img src="assets/img/about-us/viriya.jpg" alt="">
@@ -46,6 +52,12 @@
                     Prodi: Room division<br>
                     No Hp: 089531961070<br>
                     E-mail: s19200062@student.ubm.ac.id</p>
+                    <p>
+                        Kontribusi:<br>
+                        Halaman membership<br>
+                        Menu pendaftaran membership<br>
+                        Laporan
+                    </p>
             </div>
             <div class="card">
                 <img src="assets/img/about-us/nico.jpg" alt="">
@@ -55,6 +67,12 @@
                     Prodi: Food and Beverages<br>
                     No Hp: 0812-5748-4287<br>
                     E-mail: s19200024@studentubm.ac.id</p>
+                    <p>
+                        Kontribusi:<br>
+                        Database<br>
+                        Informasi makanan<br>
+                        Laporan
+                    </p>
             </div>
             
         </div>
