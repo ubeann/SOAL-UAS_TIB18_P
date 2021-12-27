@@ -266,7 +266,7 @@
     }
 
     // Fungsi untuk mengecek session
-    function checkSession() {
+    function checkSession($directory=null) {
         // Global Variable
         global $conn, $table;
 
@@ -283,7 +283,11 @@
             $row = mysqli_fetch_assoc($result);
             return $row;
         } else {
-            header("Location: login.php");
+            if($directory!=null) {
+                header("Location: ../login.php");
+            } else {
+                header("Location: login.php");
+            }
             return false;
         }
     }

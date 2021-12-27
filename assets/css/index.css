@@ -1,0 +1,38 @@
+video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: 83%;
+}
+
+video {
+    max-width: 100%
+}
+
+.content {
+    z-index: 99;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    
+}
+
+.content .shape {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ead7d5a1;
+    border-radius: 1rem;
+    z-index: 99;
+    padding: 2rem;
+    backdrop-filter: blur(16px);
+}
+

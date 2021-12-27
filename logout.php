@@ -5,6 +5,6 @@
     // Logout
     if (deleteSession()) {
         // Redirect ke halaman index
-        header("Location: index.php");
+        header("Location: membership.php");
         exit;
     }

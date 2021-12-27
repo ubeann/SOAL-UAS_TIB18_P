@@ -1,0 +1,38 @@
+.content {
+    margin: 2rem 3rem;
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.kontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--red);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.card a {
+    background: var(--darkred);
+}
+
+.card a:hover {
+    transform: translateY(-4px);
+}
+
+.card img {
+    border-radius: 10px;
+}
